@@ -1,0 +1,20 @@
+程序 源码 ;
+
+
+1, 
+在交叉编译前, 请修改Makefile文件的CFLAGS标志
+我的如下:
+CFLAGS += -I $(shell pwd)/include -I$(PWD)/include -L/home/wudebao/work/freetype/arm_freetype/freetype-2.4.10/arm_build/lib -I/home/wudebao/work/freetype/arm_freetype/freetype-2.4.10/arm_build/include -I$(PWD)/include -L/home/wudebao/work/freetype/arm_freetype/freetype-2.4.10/arm_build/lib
+
+但是你们需要修改为你们自己的交叉编译的库的路径,否则编译通不过,要是有问题,可以和我联系如何修改!
+
+
+2.
+
+交叉编译后,将可执行放入嵌入式板子, 然后将前面交叉编译的库拷贝到嵌入板子, 注意将库拷贝的时候,要加上-d选项保持链接属性 
+
+
+3, 
+
+运行即可 !
+

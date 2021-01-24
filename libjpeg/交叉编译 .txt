@@ -1,0 +1,18 @@
+交叉编译libjpeg :
+
+tar xzf libjpeg-turbo-1.2.1.tar.gz
+
+cd libjpeg-turbo-1.2.1
+
+// 注意, 这个目录/work/home/wudebao/libjpeg-turbo-1.2.1/tmp/可以自己制定
+./configure --prefix=/work/home/wudebao/libjpeg-turbo-1.2.1/arm_build/ --host=arm-linux
+
+// 或者:
+./configure --prefix=$PWD/arm_build/ --host=arm-linux
+
+
+make
+
+make install 
+
+

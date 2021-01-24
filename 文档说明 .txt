@@ -1,0 +1,48 @@
+1, freetype:
+
+freetype文件夹: 一个开源的库, 在项目中会用到,需要交叉编译,然后将编译好的库放到嵌入式板子中
+
+
+2, libjpeg :
+libjpeg文件夹 : 一个开源的库, 在项目中会用到,需要交叉编译,然后将编译好的库放到嵌入式板子中
+
+3, tslib:
+tslib文件夹 : 一个开源的库, 在项目中会用到,需要交叉编译,然后将编译好的库放到嵌入式板子中
+
+
+4,source_code
+source_code文件夹: 本项目的源码,需要修改Makefile中库的路径.然后直接make编译即可!
+不会修改库路径的请和我联系!
+
+修改方法:
+vi Makefile
+
+将CFLAGS += 修改即可 
+
+5,icons
+icons文件夹:
+是要放到嵌入式板子的系统中的:具体目录为: /etc/digitpic/icons
+
+
+6, fonts_file
+fonts_file文件夹: 字体文件. 放到嵌入式板子中,作为程序运行的一个参数!
+如: ./digitpic_app  simsun.ttc
+
+
+
+7, lib:
+lib文件夹: 我交叉编译好的库,要是你不会交叉编译,将这个文件里面的库,全部拷贝的嵌入式板子的/usr/lib目录下
+注意,要保持链接属性加-d选项...
+
+
+8,arm-llinux-gcc
+arm-llinux-gcc文件夹: 交叉编译工具!
+
+解压方法:
+tar xvf arm-linux-gcc-4.4.3.tar.gz
+
+然后增加 PATH 路径!
+
+
+
+

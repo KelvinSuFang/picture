@@ -1,0 +1,21 @@
+tar xjf freetype-2.4.10.tar.bz2 
+./configure --host=arm-linux
+make
+make DESTDIR=$PWD/tmp install
+
+
+还有一步重要的,就是进入$PWD/tmp ,然后进去include目录.
+做如下处理, 即,将freetype2/freetype目录移动到上一级目录来 !!!!
+mv freetype2/freetype .
+
+
+
+
+将tmp目录的下的lib,拷贝到交叉编译工具路径下的lib目录去, 要加-d参数保持链接属性 !!!!!!!!!!!!!!-----重要!!!!!!!!!!!
+
+
+
+
+然后将lib目录拷贝到嵌入式板子的/usr/lib目录
+
+
