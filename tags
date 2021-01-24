@@ -1,0 +1,547 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_ALERT	source_code/include/debug_manager.h	7;"	d
+APP_CRIT	source_code/include/debug_manager.h	8;"	d
+APP_DEBUG	source_code/include/debug_manager.h	13;"	d
+APP_EMERG	source_code/include/debug_manager.h	6;"	d
+APP_ERR	source_code/include/debug_manager.h	9;"	d
+APP_INFO	source_code/include/debug_manager.h	12;"	d
+APP_NOTICE	source_code/include/debug_manager.h	11;"	d
+APP_WARNING	source_code/include/debug_manager.h	10;"	d
+AR	source_code/Makefile	/^AR		= $(CROSS_COMPILE)ar$/;"	m
+AS	source_code/Makefile	/^AS		= $(CROSS_COMPILE)as$/;"	m
+ASCIIFontInit	source_code/fonts/ascii.c	/^static int ASCIIFontInit(char *pcFontFile, unsigned int dwFontSize)$/;"	f	file:
+ASCIIGetFontBitmap	source_code/fonts/ascii.c	/^static int ASCIIGetFontBitmap(unsigned int dwCode, PT_FontBitMap ptFontBitMap)$/;"	f	file:
+ASCIIInit	source_code/fonts/ascii.c	/^int ASCIIInit(void)$/;"	f
+AUTO_BUTTON	source_code/include/config.h	33;"	d
+AddFontOprForEncoding	source_code/encoding/encoding_manager.c	/^int AddFontOprForEncoding(PT_EncodingOpr ptEncodingOpr, PT_FontOpr ptFontOpr)$/;"	f
+AllInputDevicesInit	source_code/input/input_manager.c	/^int AllInputDevicesInit(void)$/;"	f
+AllocVideoMem	source_code/display/disp_manager.c	/^int AllocVideoMem(int iNum)$/;"	f
+AsciiEncodingInit	source_code/encoding/ascii.c	/^int AsciiEncodingInit(void)$/;"	f
+AsciiGetCodeFrmBuf	source_code/encoding/ascii.c	/^static int AsciiGetCodeFrmBuf(unsigned char *pucBufStart, unsigned char *pucBufEnd, unsigned int *pdwCode)$/;"	f	file:
+AutoPageInit	source_code/page/auto_page.c	/^int AutoPageInit(void)$/;"	f
+AutoPageRun	source_code/page/auto_page.c	/^static void AutoPageRun(PT_PageParams ptParentPageParams)$/;"	f	file:
+AutoPlayThreadFunction	source_code/page/auto_page.c	/^static void *AutoPlayThreadFunction(void *pVoid)$/;"	f	file:
+BITMAPFILEHEADER	source_code/render/format/bmp.c	/^} BITMAPFILEHEADER;$/;"	t	typeref:struct:tagBITMAPFILEHEADER	file:
+BITMAPINFOHEADER	source_code/render/format/bmp.c	/^} BITMAPINFOHEADER;$/;"	t	typeref:struct:tagBITMAPINFOHEADER	file:
+BMPParserInit	source_code/render/format/bmp.c	/^int BMPParserInit(void)$/;"	f
+BrowsePageGetInputEvent	source_code/page/browse_page.c	/^static int BrowsePageGetInputEvent(PT_PageLayout ptPageLayout, PT_InputEvent ptInputEvent)$/;"	f	file:
+BrowsePageInit	source_code/page/browse_page.c	/^int BrowsePageInit(void)$/;"	f
+BrowsePageRun	source_code/page/browse_page.c	/^static void BrowsePageRun(PT_PageParams ptParentPageParams)$/;"	f	file:
+CC	source_code/Makefile	/^CC		= $(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	source_code/Makefile	/^CFLAGS := -Wall -Werror -O2 -g$/;"	m
+COLOR_BACKGROUND	source_code/include/config.h	11;"	d
+COLOR_FOREGROUND	source_code/include/config.h	12;"	d
+CPP	source_code/Makefile	/^CPP		= $(CC) -E$/;"	m
+CROSS_COMPILE	source_code/Makefile	/^CROSS_COMPILE = arm-linux-$/;"	m
+CalcBrowsePageDirAndFilesLayout	source_code/page/browse_page.c	/^static int CalcBrowsePageDirAndFilesLayout(void)$/;"	f	file:
+CalcBrowsePageMenusLayout	source_code/page/browse_page.c	/^static void  CalcBrowsePageMenusLayout(PT_PageLayout ptPageLayout)$/;"	f	file:
+CalcIntervalPageLayout	source_code/page/interval_page.c	/^static void  CalcIntervalPageLayout(PT_PageLayout ptPageLayout)$/;"	f	file:
+CalcMainPageLayout	source_code/page/main_page.c	/^static void  CalcMainPageLayout(PT_PageLayout ptPageLayout)$/;"	f	file:
+CalcManualPageMenusLayout	source_code/page/manual_page.c	/^static void  CalcManualPageMenusLayout(PT_PageLayout ptPageLayout)$/;"	f	file:
+CalcManualPagePictureLayout	source_code/page/manual_page.c	/^static void CalcManualPagePictureLayout(void)$/;"	f	file:
+CalcSettingPageLayout	source_code/page/setting_page.c	/^static void  CalcSettingPageLayout(PT_PageLayout ptPageLayout)$/;"	f	file:
+CleanScreen	source_code/include/disp_manager.h	/^	int (*CleanScreen)(unsigned int dwBackColor);                    $/;"	m	struct:DispOpr
+ClearRectangleInVideoMem	source_code/render/render.c	/^void ClearRectangleInVideoMem(int iTopLeftX, int iTopLeftY, int iBotRightX, int iBotRightY, PT_VideoMem ptVideoMem, unsigned int dwColor)$/;"	f
+ClearVideoMem	source_code/display/disp_manager.c	/^void ClearVideoMem(PT_VideoMem ptVideoMem, unsigned int dwColor)$/;"	f
+ClearVideoMemRegion	source_code/display/disp_manager.c	/^void ClearVideoMemRegion(PT_VideoMem ptVideoMem, PT_Layout ptLayout, unsigned int dwColor)$/;"	f
+CovertOneLine	source_code/render/format/bmp.c	/^static int CovertOneLine(int iWidth, int iSrcBpp, int iDstBpp, unsigned char *pudSrcDatas, unsigned char *pudDstDatas)$/;"	f	file:
+CovertOneLine	source_code/render/format/jpg.c	/^static int CovertOneLine(int iWidth, int iSrcBpp, int iDstBpp, unsigned char *pudSrcDatas, unsigned char *pudDstDatas)$/;"	f	file:
+DBG_PRINTF	source_code/include/config.h	15;"	d
+DEFAULT_DBGLEVEL	source_code/include/debug_manager.h	16;"	d
+DEFAULT_DIR	source_code/include/config.h	9;"	d
+DIRFILE_ICON_INDEX_BASE	source_code/page/browse_page.c	544;"	d	file:
+DIR_FILE_ALL_HEIGHT	source_code/page/browse_page.c	16;"	d	file:
+DIR_FILE_ALL_WIDTH	source_code/page/browse_page.c	15;"	d	file:
+DIR_FILE_ICON_HEIGHT	source_code/page/browse_page.c	12;"	d	file:
+DIR_FILE_ICON_WIDTH	source_code/page/browse_page.c	11;"	d	file:
+DIR_FILE_NAME_HEIGHT	source_code/page/browse_page.c	13;"	d	file:
+DIR_FILE_NAME_WIDTH	source_code/page/browse_page.c	14;"	d	file:
+DeSelectDirFileIcon	source_code/page/browse_page.c	/^static void DeSelectDirFileIcon(int iDirFileIndex)$/;"	f	file:
+DebugExit	source_code/include/debug_manager.h	/^	int (*DebugExit)(void);   $/;"	m	struct:DebugOpr
+DebugInit	source_code/debug/debug_manager.c	/^int DebugInit(void)$/;"	f
+DebugInit	source_code/include/debug_manager.h	/^	int (*DebugInit)(void);   $/;"	m	struct:DebugOpr
+DebugOpr	source_code/include/debug_manager.h	/^typedef struct DebugOpr {$/;"	s
+DebugPrint	source_code/debug/debug_manager.c	/^int DebugPrint(const char *pcFormat, ...)$/;"	f
+DebugPrint	source_code/include/debug_manager.h	/^	int (*DebugPrint)(char *strData);  $/;"	m	struct:DebugOpr
+DelFontOprFrmEncoding	source_code/encoding/encoding_manager.c	/^int DelFontOprFrmEncoding(PT_EncodingOpr ptEncodingOpr, PT_FontOpr ptFontOpr)$/;"	f
+DeviceExit	source_code/include/input_manager.h	/^	int (*DeviceExit)(void);  $/;"	m	struct:InputOpr
+DeviceInit	source_code/include/disp_manager.h	/^	int (*DeviceInit)(void);     $/;"	m	struct:DispOpr
+DeviceInit	source_code/include/input_manager.h	/^	int (*DeviceInit)(void);  $/;"	m	struct:InputOpr
+DirContent	source_code/include/file.h	/^typedef struct DirContent {$/;"	s
+DispOpr	source_code/include/disp_manager.h	/^typedef struct DispOpr {$/;"	s
+DisplayInit	source_code/display/disp_manager.c	/^int DisplayInit(void)$/;"	f
+DistanceBetweenTwoPoint	source_code/page/manual_page.c	/^static int DistanceBetweenTwoPoint(PT_InputEvent ptInputEvent1, PT_InputEvent ptInputEvent2)$/;"	f	file:
+E_FileType	source_code/include/file.h	/^}E_FileType;$/;"	t	typeref:enum:__anon3
+E_PicState	source_code/include/disp_manager.h	/^}E_PicState;$/;"	t	typeref:enum:__anon2
+E_VideoMemState	source_code/include/disp_manager.h	/^}E_VideoMemState;$/;"	t	typeref:enum:__anon1
+EncodingInit	source_code/encoding/encoding_manager.c	/^int EncodingInit(void)$/;"	f
+EncodingOpr	source_code/include/encoding_manager.h	/^typedef struct EncodingOpr {$/;"	s
+FBCleanScreen	source_code/display/fb.c	/^static int FBCleanScreen(unsigned int dwBackColor)$/;"	f	file:
+FBDeviceInit	source_code/display/fb.c	/^static int FBDeviceInit(void)$/;"	f	file:
+FBInit	source_code/display/fb.c	/^int FBInit(void)$/;"	f
+FBShowPage	source_code/display/fb.c	/^static int FBShowPage(PT_VideoMem ptVideoMem)$/;"	f	file:
+FBShowPixel	source_code/display/fb.c	/^static int FBShowPixel(int iX, int iY, unsigned int dwColor)$/;"	f	file:
+FB_DEVICE_NAME	source_code/include/config.h	8;"	d
+FILETYPE_DIR	source_code/include/file.h	/^	FILETYPE_DIR = 0,  $/;"	e	enum:__anon3
+FILETYPE_FILE	source_code/include/file.h	/^	FILETYPE_FILE,     $/;"	e	enum:__anon3
+FILE_COUNT	source_code/page/auto_page.c	20;"	d	file:
+FONTDATAMAX	source_code/fonts/ascii.c	5;"	d	file:
+FileMap	source_code/include/file.h	/^typedef struct FileMap {$/;"	s
+FlushVideoMemToDev	source_code/render/render.c	/^void FlushVideoMemToDev(PT_VideoMem ptVideoMem)$/;"	f
+FontBitMap	source_code/include/fonts_manager.h	/^typedef struct FontBitMap {$/;"	s
+FontInit	source_code/include/fonts_manager.h	/^	int (*FontInit)(char *pcFontFile, unsigned int dwFontSize);  $/;"	m	struct:FontOpr
+FontOpr	source_code/include/fonts_manager.h	/^typedef struct FontOpr {$/;"	s
+FontsInit	source_code/fonts/fonts_manager.c	/^int FontsInit(void)$/;"	f
+FreeDirContents	source_code/file/file.c	/^void FreeDirContents(PT_DirContent *aptDirContents, int iNumber)$/;"	f
+FreePixelDatas	source_code/include/pic_operation.h	/^	int (*FreePixelDatas)(PT_PixelDatas ptPixelDatas);  $/;"	m	struct:PicFileParser
+FreePixelDatasForBMP	source_code/render/format/bmp.c	/^static int FreePixelDatasForBMP(PT_PixelDatas ptPixelDatas)$/;"	f	file:
+FreePixelDatasForIcon	source_code/render/render.c	/^void FreePixelDatasForIcon(PT_PixelDatas ptPixelDatas)$/;"	f
+FreePixelDatasForJPG	source_code/render/format/jpg.c	/^static int FreePixelDatasForJPG(PT_PixelDatas ptPixelDatas)$/;"	f	file:
+FreePixelDatasFrmFile	source_code/render/render.c	/^void FreePixelDatasFrmFile(PT_PixelDatas ptPixelDatas)$/;"	f
+FreeTypeFontInit	source_code/fonts/freetype.c	/^static int FreeTypeFontInit(char *pcFontFile, unsigned int dwFontSize)$/;"	f	file:
+FreeTypeGetFontBitmap	source_code/fonts/freetype.c	/^static int FreeTypeGetFontBitmap(unsigned int dwCode, PT_FontBitMap ptFontBitMap)$/;"	f	file:
+FreeTypeInit	source_code/fonts/freetype.c	/^int FreeTypeInit(void)$/;"	f
+FreeTypeSetFontSize	source_code/fonts/freetype.c	/^static void FreeTypeSetFontSize(unsigned int dwFontSize)$/;"	f	file:
+GBKFontInit	source_code/fonts/gbk.c	/^static int GBKFontInit(char *pcFontFile, unsigned int dwFontSize)$/;"	f	file:
+GBKGetFontBitmap	source_code/fonts/gbk.c	/^static int GBKGetFontBitmap(unsigned int dwCode, PT_FontBitMap ptFontBitMap)$/;"	f	file:
+GBKInit	source_code/fonts/gbk.c	/^int GBKInit(void)$/;"	f
+GenerateBrowsePageDirAndFile	source_code/page/browse_page.c	/^static int GenerateBrowsePageDirAndFile(int iStartIndex, int iDirContentsNumber, PT_DirContent *aptDirContents, PT_VideoMem ptVideoMem)$/;"	f	file:
+GenerateDirAndFileIcons	source_code/page/browse_page.c	/^static int GenerateDirAndFileIcons(PT_PageLayout ptPageLayout)$/;"	f	file:
+GenerateIntervalPageSpecialIcon	source_code/page/interval_page.c	/^static int GenerateIntervalPageSpecialIcon(int dwNumber, PT_VideoMem ptVideoMem)$/;"	f	file:
+GeneratePage	source_code/page/page_manager.c	/^int GeneratePage(PT_PageLayout ptPageLayout, PT_VideoMem ptVideoMem)$/;"	f
+GenericGetInputEvent	source_code/page/page_manager.c	/^int GenericGetInputEvent(PT_PageLayout ptPageLayout, PT_InputEvent ptInputEvent)$/;"	f
+GetCodeFrmBuf	source_code/encoding/encoding_manager.c	/^int GetCodeFrmBuf(unsigned char *pucBufStart, unsigned char *pucBufEnd, unsigned int *pdwCode)$/;"	f
+GetCodeFrmBuf	source_code/include/encoding_manager.h	/^	int (*GetCodeFrmBuf)(unsigned char *pucBufStart, unsigned char *pucBufEnd, unsigned int *pdwCode);  $/;"	m	struct:EncodingOpr
+GetData	source_code/debug/netprint.c	/^static int GetData(char *pcVal)$/;"	f	file:
+GetDebugOpr	source_code/debug/debug_manager.c	/^PT_DebugOpr GetDebugOpr(char *pcName)$/;"	f
+GetDefaultDispDev	source_code/display/disp_manager.c	/^PT_DispOpr GetDefaultDispDev(void)$/;"	f
+GetDevVideoMem	source_code/display/disp_manager.c	/^PT_VideoMem GetDevVideoMem(void)$/;"	f
+GetDirContents	source_code/file/file.c	/^int GetDirContents(char *strDirName, PT_DirContent **pptDirContents, int *piNumber)	$/;"	f
+GetDispOpr	source_code/display/disp_manager.c	/^PT_DispOpr GetDispOpr(char *pcName)$/;"	f
+GetDispResolution	source_code/display/disp_manager.c	/^int GetDispResolution(int *piXres, int *piYres, int *piBpp)$/;"	f
+GetFilesIndir	source_code/file/file.c	/^int GetFilesIndir(char *strDirName, int *piStartNumberToRecord, int *piCurFileNumber, int *piFileCountHaveGet, int iFileCountTotal, char apstrFileNames[][256])$/;"	f
+GetFontBitmap	source_code/fonts/fonts_manager.c	/^int GetFontBitmap(unsigned int dwCode, PT_FontBitMap ptFontBitMap)$/;"	f
+GetFontBitmap	source_code/include/fonts_manager.h	/^	int (*GetFontBitmap)(unsigned int dwCode, PT_FontBitMap ptFontBitMap);  $/;"	m	struct:FontOpr
+GetFontOpr	source_code/fonts/fonts_manager.c	/^PT_FontOpr GetFontOpr(char *pcName)$/;"	f
+GetFontSize	source_code/fonts/fonts_manager.c	/^unsigned int GetFontSize(void)$/;"	f
+GetInputEvent	source_code/include/input_manager.h	/^	int (*GetInputEvent)(PT_InputEvent ptInputEvent);  $/;"	m	struct:InputOpr
+GetInputEvent	source_code/include/page_manager.h	/^	int (*GetInputEvent)(PT_PageLayout ptPageLayout, PT_InputEvent ptInputEvent);  $/;"	m	struct:PageAction
+GetInputEvent	source_code/input/input_manager.c	/^int GetInputEvent(PT_InputEvent ptInputEvent)$/;"	f
+GetInputPositionInPageLayout	source_code/page/browse_page.c	/^static int GetInputPositionInPageLayout(PT_PageLayout ptPageLayout, PT_InputEvent ptInputEvent)$/;"	f	file:
+GetIntervalTime	source_code/page/interval_page.c	/^void GetIntervalTime(int *piIntervalSecond)$/;"	f
+GetNextAutoPlayFile	source_code/page/auto_page.c	/^static int GetNextAutoPlayFile(char *strFileName)$/;"	f	file:
+GetOriginPictureFilePixelDatas	source_code/page/manual_page.c	/^static PT_PixelDatas GetOriginPictureFilePixelDatas(char *strFileName)$/;"	f	file:
+GetPageCfg	source_code/page/page_manager.c	/^void GetPageCfg(PT_PageCfg ptPageCfg)$/;"	f
+GetParser	source_code/render/format/picfmt_manager.c	/^PT_PicFileParser GetParser(PT_FileMap ptFileMap)$/;"	f
+GetPixelDatas	source_code/include/pic_operation.h	/^	int (*GetPixelDatas)(PT_FileMap ptFileMap, PT_PixelDatas ptPixelDatas);  $/;"	m	struct:PicFileParser
+GetPixelDatasFrmBMP	source_code/render/format/bmp.c	/^static int GetPixelDatasFrmBMP(PT_FileMap ptFileMap, PT_PixelDatas ptPixelDatas)$/;"	f	file:
+GetPixelDatasFrmFile	source_code/render/render.c	/^int GetPixelDatasFrmFile(char *strFileName, PT_PixelDatas ptPixelDatas)$/;"	f
+GetPixelDatasFrmJPG	source_code/render/format/jpg.c	/^static int GetPixelDatasFrmJPG(PT_FileMap ptFileMap, PT_PixelDatas ptPixelDatas)$/;"	f	file:
+GetPixelDatasFromIcon	source_code/render/render.c	/^int GetPixelDatasFromIcon(char *strFileName, PT_PixelDatas ptPixelDatas)$/;"	f
+GetPreOneBits	source_code/encoding/utf-8.c	/^static int GetPreOneBits(unsigned char ucVal)$/;"	f	file:
+GetSelectedDir	source_code/page/browse_page.c	/^void GetSelectedDir(char *strSeletedDir)$/;"	f
+GetVideoMem	source_code/display/disp_manager.c	/^PT_VideoMem GetVideoMem(int iID, int bCur)$/;"	f
+GetZoomedPicPixelDatas	source_code/page/manual_page.c	/^static PT_PixelDatas GetZoomedPicPixelDatas(PT_PixelDatas ptOriginPicPixelDatas, int iZoomedWidth, int iZoomedHeight)$/;"	f	file:
+ICON_PATH	source_code/include/config.h	21;"	d
+ID	source_code/page/page_manager.c	/^int ID(char *strName)$/;"	f
+INPUT_TYPE_STDIN	source_code/include/input_manager.h	7;"	d
+INPUT_TYPE_TOUCHSCREEN	source_code/include/input_manager.h	8;"	d
+IS_AUTO_BUTTON	source_code/include/config.h	25;"	d
+IS_BROWSE_BUTTON	source_code/include/config.h	24;"	d
+IS_SELECT_BUTTON	source_code/include/config.h	26;"	d
+InitDebugChanel	source_code/debug/debug_manager.c	/^int InitDebugChanel(void)$/;"	f
+InputEvent	source_code/include/input_manager.h	/^typedef struct InputEvent {$/;"	s
+InputEventThreadFunction	source_code/input/input_manager.c	/^static void *InputEventThreadFunction(void *pVoid)$/;"	f	file:
+InputInit	source_code/input/input_manager.c	/^int InputInit(void)$/;"	f
+InputOpr	source_code/include/input_manager.h	/^typedef struct InputOpr {$/;"	s
+IntervalPageGetInputEvent	source_code/page/interval_page.c	/^static int IntervalPageGetInputEvent(PT_PageLayout ptPageLayout, PT_InputEvent ptInputEvent)$/;"	f	file:
+IntervalPageInit	source_code/page/interval_page.c	/^int IntervalPageInit(void)$/;"	f
+IntervalPageRun	source_code/page/interval_page.c	/^static void IntervalPageRun(PT_PageParams ptParentPageParams)$/;"	f	file:
+InvertButton	source_code/render/render.c	/^static void InvertButton(PT_Layout ptLayout)$/;"	f	file:
+JPGParserInit	source_code/render/format/jpg.c	/^int JPGParserInit(void)$/;"	f
+LAST_BUTTON	source_code/include/config.h	31;"	d
+LD	source_code/Makefile	/^LD		= $(CROSS_COMPILE)ld$/;"	m
+LDFLAGS	source_code/Makefile	/^LDFLAGS := -lm -lfreetype -lts -lpthread -ljpeg$/;"	m
+Layout	source_code/include/disp_manager.h	/^typedef struct Layout {$/;"	s
+MAX_DIR_DEEPNESS	source_code/file/file.c	230;"	d	file:
+MainPageGetInputEvent	source_code/page/main_page.c	/^static int MainPageGetInputEvent(PT_PageLayout ptPageLayout, PT_InputEvent ptInputEvent)$/;"	f	file:
+MainPageInit	source_code/page/main_page.c	/^int MainPageInit(void)$/;"	f
+MainPageRun	source_code/page/main_page.c	/^static void MainPageRun(PT_PageParams ptParentPageParams)$/;"	f	file:
+ManualPageGetInputEvent	source_code/page/manual_page.c	/^static int ManualPageGetInputEvent(PT_PageLayout ptPageLayout, PT_InputEvent ptInputEvent)$/;"	f	file:
+ManualPageInit	source_code/page/manual_page.c	/^int ManualPageInit(void)$/;"	f
+ManualPageRun	source_code/page/manual_page.c	/^static void ManualPageRun(PT_PageParams ptParentPageParams)$/;"	f	file:
+MapFile	source_code/file/file.c	/^int MapFile(PT_FileMap ptFileMap)$/;"	f
+MergeOneFontToVideoMem	source_code/render/render.c	/^static int MergeOneFontToVideoMem(PT_FontBitMap ptFontBitMap, PT_VideoMem ptVideoMem)$/;"	f	file:
+MergerStringToCenterOfRectangleInVideoMem	source_code/render/render.c	/^int MergerStringToCenterOfRectangleInVideoMem(int iTopLeftX, int iTopLeftY, int iBotRightX, int iBotRightY, unsigned char *pucTextString, PT_VideoMem ptVideoMem)$/;"	f
+MyErrorExit	source_code/render/format/jpg.c	/^static void MyErrorExit(j_common_ptr ptCInfo)$/;"	f	file:
+MyErrorMgr	source_code/render/format/jpg.c	/^typedef struct MyErrorMgr$/;"	s	file:
+NEXT_BUTTON	source_code/include/config.h	32;"	d
+NM	source_code/Makefile	/^NM		= $(CROSS_COMPILE)nm$/;"	m
+NetDbgExit	source_code/debug/netprint.c	/^static int NetDbgExit(void)$/;"	f	file:
+NetDbgInit	source_code/debug/netprint.c	/^static int NetDbgInit(void)$/;"	f	file:
+NetDbgPrint	source_code/debug/netprint.c	/^static int NetDbgPrint(char *strData)$/;"	f	file:
+NetDbgRecvTreadFunction	source_code/debug/netprint.c	/^static void *NetDbgRecvTreadFunction(void *pVoid)$/;"	f	file:
+NetDbgSendTreadFunction	source_code/debug/netprint.c	/^static void *NetDbgSendTreadFunction(void *pVoid)$/;"	f	file:
+NetPrintInit	source_code/debug/netprint.c	/^int NetPrintInit(void)$/;"	f
+OBJCOPY	source_code/Makefile	/^OBJCOPY		= $(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	source_code/Makefile	/^OBJDUMP		= $(CROSS_COMPILE)objdump$/;"	m
+PRINT_BUF_SIZE	source_code/debug/netprint.c	16;"	d	file:
+PS_BLANK	source_code/include/disp_manager.h	/^	PS_BLANK = 0,$/;"	e	enum:__anon2
+PS_GENERATED	source_code/include/disp_manager.h	/^	PS_GENERATED,	$/;"	e	enum:__anon2
+PS_GENERATING	source_code/include/disp_manager.h	/^	PS_GENERATING,$/;"	e	enum:__anon2
+PT_DebugOpr	source_code/include/debug_manager.h	/^}T_DebugOpr, *PT_DebugOpr;$/;"	t	typeref:struct:DebugOpr
+PT_DirContent	source_code/include/file.h	/^}T_DirContent, *PT_DirContent;$/;"	t	typeref:struct:DirContent
+PT_DispOpr	source_code/include/disp_manager.h	/^}T_DispOpr, *PT_DispOpr;$/;"	t	typeref:struct:DispOpr
+PT_EncodingOpr	source_code/include/encoding_manager.h	/^}T_EncodingOpr, *PT_EncodingOpr;$/;"	t	typeref:struct:EncodingOpr
+PT_FileMap	source_code/include/file.h	/^}T_FileMap, *PT_FileMap;$/;"	t	typeref:struct:FileMap
+PT_FontBitMap	source_code/include/fonts_manager.h	/^}T_FontBitMap, *PT_FontBitMap;$/;"	t	typeref:struct:FontBitMap
+PT_FontOpr	source_code/include/fonts_manager.h	/^}T_FontOpr, *PT_FontOpr;$/;"	t	typeref:struct:FontOpr
+PT_InputEvent	source_code/include/input_manager.h	/^}T_InputEvent, *PT_InputEvent;$/;"	t	typeref:struct:InputEvent
+PT_InputOpr	source_code/include/input_manager.h	/^}T_InputOpr, *PT_InputOpr;$/;"	t	typeref:struct:InputOpr
+PT_Layout	source_code/include/disp_manager.h	/^}T_Layout, *PT_Layout;$/;"	t	typeref:struct:Layout
+PT_MyErrorMgr	source_code/render/format/jpg.c	/^}T_MyErrorMgr, *PT_MyErrorMgr;$/;"	t	typeref:struct:MyErrorMgr	file:
+PT_PageAction	source_code/include/page_manager.h	/^}T_PageAction, *PT_PageAction;$/;"	t	typeref:struct:PageAction
+PT_PageCfg	source_code/include/page_manager.h	/^}T_PageCfg, *PT_PageCfg;$/;"	t	typeref:struct:PageCfg
+PT_PageLayout	source_code/include/page_manager.h	/^}T_PageLayout, *PT_PageLayout;$/;"	t	typeref:struct:PageLayout
+PT_PageParams	source_code/include/page_manager.h	/^}T_PageParams, *PT_PageParams;$/;"	t	typeref:struct:PageParams
+PT_PicFileParser	source_code/include/pic_operation.h	/^}T_PicFileParser, *PT_PicFileParser;$/;"	t	typeref:struct:PicFileParser
+PT_PixelDatas	source_code/include/pic_operation.h	/^}T_PixelDatas, *PT_PixelDatas;$/;"	t	typeref:struct:PixelDatas
+PT_VideoMem	source_code/include/disp_manager.h	/^}T_VideoMem, *PT_VideoMem;$/;"	t	typeref:struct:VideoMem
+Page	source_code/page/page_manager.c	/^PT_PageAction Page(char *pcName)$/;"	f
+PageAction	source_code/include/page_manager.h	/^typedef struct PageAction {$/;"	s
+PageCfg	source_code/include/page_manager.h	/^typedef struct PageCfg {$/;"	s
+PageLayout	source_code/include/page_manager.h	/^typedef struct PageLayout {$/;"	s
+PageParams	source_code/include/page_manager.h	/^typedef struct PageParams {$/;"	s
+PagesInit	source_code/page/page_manager.c	/^int PagesInit(void)$/;"	f
+Parser	source_code/render/format/picfmt_manager.c	/^PT_PicFileParser Parser(char *pcName)$/;"	f
+PicFileParser	source_code/include/pic_operation.h	/^typedef struct PicFileParser {$/;"	s
+PicFmtsInit	source_code/render/format/picfmt_manager.c	/^int PicFmtsInit(void)$/;"	f
+PicMerge	source_code/render/operation/merge.c	/^int PicMerge(int iX, int iY, PT_PixelDatas ptSmallPic, PT_PixelDatas ptBigPic)$/;"	f
+PicMergeRegion	source_code/render/operation/merge.c	/^int PicMergeRegion(int iStartXofNewPic, int iStartYofNewPic, int iStartXofOldPic, int iStartYofOldPic, int iWidth, int iHeight, PT_PixelDatas ptNewPic, PT_PixelDatas ptOldPic)$/;"	f
+PicZoom	source_code/render/operation/zoom.c	/^int PicZoom(PT_PixelDatas ptOriginPic, PT_PixelDatas ptZoomPic)$/;"	f
+PixelDatas	source_code/include/pic_operation.h	/^typedef struct PixelDatas {$/;"	s
+Prepare	source_code/include/page_manager.h	/^	int (*Prepare)(void);         $/;"	m	struct:PageAction
+PrepareNextPicture	source_code/page/auto_page.c	/^static PT_VideoMem PrepareNextPicture(int bCur)$/;"	f	file:
+PressButton	source_code/render/render.c	/^void PressButton(PT_Layout ptLayout)$/;"	f
+PutData	source_code/debug/netprint.c	/^static int PutData(char cVal)$/;"	f	file:
+PutVideoMem	source_code/display/disp_manager.c	/^void PutVideoMem(PT_VideoMem ptVideoMem)$/;"	f
+RETURN_BUTTON	source_code/include/config.h	28;"	d
+RegisterDebugOpr	source_code/debug/debug_manager.c	/^int RegisterDebugOpr(PT_DebugOpr ptDebugOpr)$/;"	f
+RegisterDispOpr	source_code/display/disp_manager.c	/^int RegisterDispOpr(PT_DispOpr ptDispOpr)$/;"	f
+RegisterEncodingOpr	source_code/encoding/encoding_manager.c	/^int RegisterEncodingOpr(PT_EncodingOpr ptEncodingOpr)$/;"	f
+RegisterFontOpr	source_code/fonts/fonts_manager.c	/^int RegisterFontOpr(PT_FontOpr ptFontOpr)$/;"	f
+RegisterInputOpr	source_code/input/input_manager.c	/^int RegisterInputOpr(PT_InputOpr ptInputOpr)$/;"	f
+RegisterPageAction	source_code/page/page_manager.c	/^int RegisterPageAction(PT_PageAction ptPageAction)$/;"	f
+RegisterPicFileParser	source_code/render/format/picfmt_manager.c	/^int RegisterPicFileParser(PT_PicFileParser ptPicFileParser)$/;"	f
+ReleaseButton	source_code/render/render.c	/^void ReleaseButton(PT_Layout ptLayout)$/;"	f
+ResetAutoPlayFile	source_code/page/auto_page.c	/^static void ResetAutoPlayFile(void)$/;"	f	file:
+Run	source_code/include/page_manager.h	/^	void (*Run)(PT_PageParams ptParentPageParams);  $/;"	m	struct:PageAction
+SERVER_PORT	source_code/debug/netprint.c	15;"	d	file:
+SERVER_PORT	source_code/netprint_client.c	13;"	d	file:
+SHRINK_BUTTON	source_code/include/config.h	29;"	d
+SLIP_MIN_DISTANCE	source_code/page/manual_page.c	11;"	d	file:
+STRIP	source_code/Makefile	/^STRIP		= $(CROSS_COMPILE)strip$/;"	m
+SelectAndInitDefaultDispDev	source_code/display/disp_manager.c	/^void SelectAndInitDefaultDispDev(char *name)$/;"	f
+SelectDirFileIcon	source_code/page/browse_page.c	/^static void SelectDirFileIcon(int iDirFileIndex)$/;"	f	file:
+SelectEncodingOprForFile	source_code/encoding/encoding_manager.c	/^PT_EncodingOpr SelectEncodingOprForFile(unsigned char *pucFileBufHead)$/;"	f
+SetColorForPixelInVideoMem	source_code/render/render.c	/^static int SetColorForPixelInVideoMem(int iX, int iY, PT_VideoMem ptVideoMem, unsigned int dwColor)$/;"	f	file:
+SetDbgChanel	source_code/debug/debug_manager.c	/^int SetDbgChanel(char *strBuf)$/;"	f
+SetDbgLevel	source_code/debug/debug_manager.c	/^int SetDbgLevel(char *strBuf)$/;"	f
+SetFontSize	source_code/fonts/fonts_manager.c	/^void SetFontSize(unsigned int dwFontSize)$/;"	f
+SetFontSize	source_code/include/fonts_manager.h	/^	void (*SetFontSize)(unsigned int dwFontSize);   $/;"	m	struct:FontOpr
+SetFontsDetail	source_code/fonts/fonts_manager.c	/^int SetFontsDetail(char *pcFontsName, char *pcFontsFile, unsigned int dwFontSize)$/;"	f
+SettingPageGetInputEvent	source_code/page/setting_page.c	/^static int SettingPageGetInputEvent(PT_PageLayout ptPageLayout, PT_InputEvent ptInputEvent)$/;"	f	file:
+SettingPageInit	source_code/page/setting_page.c	/^int SettingPageInit(void)$/;"	f
+SettingPageRun	source_code/page/setting_page.c	/^static void SettingPageRun(PT_PageParams ptParentPageParams)$/;"	f	file:
+ShowBrowsePage	source_code/page/browse_page.c	/^static void ShowBrowsePage(PT_PageLayout ptPageLayout)$/;"	f	file:
+ShowDebugOpr	source_code/debug/debug_manager.c	/^void ShowDebugOpr(void)$/;"	f
+ShowDispOpr	source_code/display/disp_manager.c	/^void ShowDispOpr(void)$/;"	f
+ShowEncodingOpr	source_code/encoding/encoding_manager.c	/^void ShowEncodingOpr(void)$/;"	f
+ShowFontOpr	source_code/fonts/fonts_manager.c	/^void ShowFontOpr(void)$/;"	f
+ShowInputOpr	source_code/input/input_manager.c	/^void ShowInputOpr(void)$/;"	f
+ShowIntervalPage	source_code/page/interval_page.c	/^static void ShowIntervalPage(PT_PageLayout ptPageLayout)$/;"	f	file:
+ShowMainPage	source_code/page/main_page.c	/^static void ShowMainPage(PT_PageLayout ptPageLayout)$/;"	f	file:
+ShowManualPage	source_code/page/manual_page.c	/^static void ShowManualPage(PT_PageLayout ptPageLayout, char *strFileName)$/;"	f	file:
+ShowPage	source_code/include/disp_manager.h	/^	int (*ShowPage)(PT_VideoMem ptVideoMem);                         $/;"	m	struct:DispOpr
+ShowPages	source_code/page/page_manager.c	/^void ShowPages(void)$/;"	f
+ShowPicFmts	source_code/render/format/picfmt_manager.c	/^void ShowPicFmts(void)$/;"	f
+ShowPictureInManualPage	source_code/page/manual_page.c	/^static int ShowPictureInManualPage(PT_VideoMem ptVideoMem, char *strFileName)$/;"	f	file:
+ShowPixel	source_code/include/disp_manager.h	/^	int (*ShowPixel)(int iPenX, int iPenY, unsigned int dwColor);    $/;"	m	struct:DispOpr
+ShowSettingPage	source_code/page/setting_page.c	/^static void ShowSettingPage(PT_PageLayout ptPageLayout)$/;"	f	file:
+ShowZoomedPictureInLayout	source_code/page/manual_page.c	/^static void ShowZoomedPictureInLayout(PT_PixelDatas ptZoomedPicPixelDatas, PT_VideoMem ptVideoMem)$/;"	f	file:
+StdinDevExit	source_code/input/stdin.c	/^static int StdinDevExit(void)$/;"	f	file:
+StdinDevInit	source_code/input/stdin.c	/^static int StdinDevInit(void)$/;"	f	file:
+StdinGetInputEvent	source_code/input/stdin.c	/^static int StdinGetInputEvent(PT_InputEvent ptInputEvent)$/;"	f	file:
+StdinInit	source_code/input/stdin.c	/^int StdinInit(void)$/;"	f
+StdoutDebugPrint	source_code/debug/stdout.c	/^static int StdoutDebugPrint(char *strData)$/;"	f	file:
+StdoutInit	source_code/debug/stdout.c	/^int StdoutInit(void)$/;"	f
+TARGET	source_code/Makefile	/^TARGET := digitpic_app$/;"	m
+TOPDIR	source_code/Makefile	/^TOPDIR := $(shell pwd)$/;"	m
+T_DebugOpr	source_code/include/debug_manager.h	/^}T_DebugOpr, *PT_DebugOpr;$/;"	t	typeref:struct:DebugOpr
+T_DirContent	source_code/include/file.h	/^}T_DirContent, *PT_DirContent;$/;"	t	typeref:struct:DirContent
+T_DispOpr	source_code/include/disp_manager.h	/^}T_DispOpr, *PT_DispOpr;$/;"	t	typeref:struct:DispOpr
+T_EncodingOpr	source_code/include/encoding_manager.h	/^}T_EncodingOpr, *PT_EncodingOpr;$/;"	t	typeref:struct:EncodingOpr
+T_FileMap	source_code/include/file.h	/^}T_FileMap, *PT_FileMap;$/;"	t	typeref:struct:FileMap
+T_FontBitMap	source_code/include/fonts_manager.h	/^}T_FontBitMap, *PT_FontBitMap;$/;"	t	typeref:struct:FontBitMap
+T_FontOpr	source_code/include/fonts_manager.h	/^}T_FontOpr, *PT_FontOpr;$/;"	t	typeref:struct:FontOpr
+T_InputEvent	source_code/include/input_manager.h	/^}T_InputEvent, *PT_InputEvent;$/;"	t	typeref:struct:InputEvent
+T_InputOpr	source_code/include/input_manager.h	/^}T_InputOpr, *PT_InputOpr;$/;"	t	typeref:struct:InputOpr
+T_Layout	source_code/include/disp_manager.h	/^}T_Layout, *PT_Layout;$/;"	t	typeref:struct:Layout
+T_MyErrorMgr	source_code/render/format/jpg.c	/^}T_MyErrorMgr, *PT_MyErrorMgr;$/;"	t	typeref:struct:MyErrorMgr	file:
+T_PageAction	source_code/include/page_manager.h	/^}T_PageAction, *PT_PageAction;$/;"	t	typeref:struct:PageAction
+T_PageCfg	source_code/include/page_manager.h	/^}T_PageCfg, *PT_PageCfg;$/;"	t	typeref:struct:PageCfg
+T_PageLayout	source_code/include/page_manager.h	/^}T_PageLayout, *PT_PageLayout;$/;"	t	typeref:struct:PageLayout
+T_PageParams	source_code/include/page_manager.h	/^}T_PageParams, *PT_PageParams;$/;"	t	typeref:struct:PageParams
+T_PicFileParser	source_code/include/pic_operation.h	/^}T_PicFileParser, *PT_PicFileParser;$/;"	t	typeref:struct:PicFileParser
+T_PixelDatas	source_code/include/pic_operation.h	/^}T_PixelDatas, *PT_PixelDatas;$/;"	t	typeref:struct:PixelDatas
+T_VideoMem	source_code/include/disp_manager.h	/^}T_VideoMem, *PT_VideoMem;$/;"	t	typeref:struct:VideoMem
+TimeMSBetween	source_code/page/page_manager.c	/^int TimeMSBetween(struct timeval tTimeStart, struct timeval tTimeEnd)$/;"	f
+TouchScreenDevExit	source_code/input/touchscreen.c	/^static int TouchScreenDevExit(void)$/;"	f	file:
+TouchScreenDevInit	source_code/input/touchscreen.c	/^static int TouchScreenDevInit(void)$/;"	f	file:
+TouchScreenGetInputEvent	source_code/input/touchscreen.c	/^static int TouchScreenGetInputEvent(PT_InputEvent ptInputEvent)$/;"	f	file:
+TouchScreenInit	source_code/input/touchscreen.c	/^int TouchScreenInit(void)$/;"	f
+UnMapFile	source_code/file/file.c	/^void UnMapFile(PT_FileMap ptFileMap)$/;"	f
+Utf16beEncodingInit	source_code/encoding/utf-16be.c	/^int  Utf16beEncodingInit(void)$/;"	f
+Utf16beGetCodeFrmBuf	source_code/encoding/utf-16be.c	/^static int Utf16beGetCodeFrmBuf(unsigned char *pucBufStart, unsigned char *pucBufEnd, unsigned int *pdwCode)$/;"	f	file:
+Utf16leEncodingInit	source_code/encoding/utf-16le.c	/^int  Utf16leEncodingInit(void)$/;"	f
+Utf16leGetCodeFrmBuf	source_code/encoding/utf-16le.c	/^static int Utf16leGetCodeFrmBuf(unsigned char *pucBufStart, unsigned char *pucBufEnd, unsigned int *pdwCode)$/;"	f	file:
+Utf8EncodingInit	source_code/encoding/utf-8.c	/^int  Utf8EncodingInit(void)$/;"	f
+Utf8GetCodeFrmBuf	source_code/encoding/utf-8.c	/^static int Utf8GetCodeFrmBuf(unsigned char *pucBufStart, unsigned char *pucBufEnd, unsigned int *pdwCode)$/;"	f	file:
+VMS_FREE	source_code/include/disp_manager.h	/^	VMS_FREE = 0,$/;"	e	enum:__anon1
+VMS_USED_FOR_CUR	source_code/include/disp_manager.h	/^	VMS_USED_FOR_CUR,	$/;"	e	enum:__anon1
+VMS_USED_FOR_PREPARE	source_code/include/disp_manager.h	/^	VMS_USED_FOR_PREPARE,$/;"	e	enum:__anon1
+VideoMem	source_code/include/disp_manager.h	/^typedef struct VideoMem {$/;"	s
+ZOOM_IN_BUTTON	source_code/include/config.h	30;"	d
+ZOOM_RATIO	source_code/page/manual_page.c	9;"	d	file:
+_CONFIG_H	source_code/include/config.h	3;"	d
+_DEBUG_MANAGER_H	source_code/include/debug_manager.h	3;"	d
+_DISP_MANAGER_H	source_code/include/disp_manager.h	2;"	d
+_ENCODING_MANAGER_H	source_code/include/encoding_manager.h	3;"	d
+_FILE_H	source_code/include/file.h	3;"	d
+_FONTS_MANAGER_H	source_code/include/fonts_manager.h	3;"	d
+_INPUT_MANAGER_H	source_code/include/input_manager.h	2;"	d
+_PAGE_MANAGER_H	source_code/include/page_manager.h	4;"	d
+_PIC_MANAGER_H	source_code/include/picfmt_manager.h	3;"	d
+_PIC_OPERATION_H	source_code/include/pic_operation.h	3;"	d
+_RENDER_H	source_code/include/render.h	3;"	d
+app_printf	source_code/include/config.h	17;"	d
+atLayout	source_code/include/page_manager.h	/^	PT_Layout atLayout;  $/;"	m	struct:PageLayout
+aucPixelDatas	source_code/include/pic_operation.h	/^	unsigned char *aucPixelDatas;  $/;"	m	struct:PixelDatas
+bDevFrameBuffer	source_code/include/disp_manager.h	/^	int bDevFrameBuffer;            $/;"	m	struct:VideoMem
+bfOffBits	source_code/render/format/bmp.c	/^	unsigned long  bfOffBits;$/;"	m	struct:tagBITMAPFILEHEADER	file:
+bfReserved1	source_code/render/format/bmp.c	/^	unsigned short bfReserved1;$/;"	m	struct:tagBITMAPFILEHEADER	file:
+bfReserved2	source_code/render/format/bmp.c	/^	unsigned short bfReserved2;$/;"	m	struct:tagBITMAPFILEHEADER	file:
+bfSize	source_code/render/format/bmp.c	/^	unsigned long  bfSize;$/;"	m	struct:tagBITMAPFILEHEADER	file:
+bfType	source_code/render/format/bmp.c	/^	unsigned short bfType; $/;"	m	struct:tagBITMAPFILEHEADER	file:
+biBitCount	source_code/render/format/bmp.c	/^	unsigned short biBitCount;$/;"	m	struct:tagBITMAPINFOHEADER	file:
+biClrImportant	source_code/render/format/bmp.c	/^	unsigned long  biClrImportant;$/;"	m	struct:tagBITMAPINFOHEADER	file:
+biClrUsed	source_code/render/format/bmp.c	/^	unsigned long  biClrUsed;$/;"	m	struct:tagBITMAPINFOHEADER	file:
+biCompression	source_code/render/format/bmp.c	/^	unsigned long  biCompression;$/;"	m	struct:tagBITMAPINFOHEADER	file:
+biHeight	source_code/render/format/bmp.c	/^	unsigned long  biHeight;$/;"	m	struct:tagBITMAPINFOHEADER	file:
+biPlanes	source_code/render/format/bmp.c	/^	unsigned short biPlanes;$/;"	m	struct:tagBITMAPINFOHEADER	file:
+biSize	source_code/render/format/bmp.c	/^	unsigned long  biSize;$/;"	m	struct:tagBITMAPINFOHEADER	file:
+biSizeImage	source_code/render/format/bmp.c	/^	unsigned long  biSizeImage;$/;"	m	struct:tagBITMAPINFOHEADER	file:
+biWidth	source_code/render/format/bmp.c	/^	unsigned long  biWidth;$/;"	m	struct:tagBITMAPINFOHEADER	file:
+biXPelsPerMeter	source_code/render/format/bmp.c	/^	unsigned long  biXPelsPerMeter;$/;"	m	struct:tagBITMAPINFOHEADER	file:
+biYPelsPerMeter	source_code/render/format/bmp.c	/^	unsigned long  biYPelsPerMeter;$/;"	m	struct:tagBITMAPINFOHEADER	file:
+eFileType	source_code/include/file.h	/^	E_FileType eFileType;  	$/;"	m	struct:DirContent
+ePicState	source_code/include/disp_manager.h	/^	E_PicState ePicState;           $/;"	m	struct:VideoMem
+eVideoMemState	source_code/include/disp_manager.h	/^	E_VideoMemState eVideoMemState; $/;"	m	struct:VideoMem
+fontdata_8x16	source_code/fonts/ascii.c	/^static const unsigned char fontdata_8x16[FONTDATAMAX] = {$/;"	v	file:
+g_apstrFileNames	source_code/page/auto_page.c	/^static char g_apstrFileNames[FILE_COUNT][256];$/;"	v	file:
+g_aptDirContents	source_code/page/browse_page.c	/^static PT_DirContent *g_aptDirContents;  $/;"	v	file:
+g_atDirAndFileLayout	source_code/page/browse_page.c	/^static T_Layout *g_atDirAndFileLayout;$/;"	v	file:
+g_atIntervalPageIconsLayout	source_code/page/interval_page.c	/^static T_Layout g_atIntervalPageIconsLayout[] = {$/;"	v	file:
+g_atMainPageIconsLayout	source_code/page/main_page.c	/^static T_Layout g_atMainPageIconsLayout[] = {$/;"	v	file:
+g_atManualMenuIconsLayout	source_code/page/manual_page.c	/^static T_Layout g_atManualMenuIconsLayout[] = {$/;"	v	file:
+g_atMenuIconsLayout	source_code/page/browse_page.c	/^static T_Layout g_atMenuIconsLayout[] = {$/;"	v	file:
+g_atSettingPageIconsLayout	source_code/page/setting_page.c	/^static T_Layout g_atSettingPageIconsLayout[] = {$/;"	v	file:
+g_bAutoPlayThreadShouldExit	source_code/page/auto_page.c	/^static int g_bAutoPlayThreadShouldExit = 0;$/;"	v	file:
+g_dwFontSize	source_code/fonts/fonts_manager.c	/^static int g_dwFontSize;	$/;"	v	file:
+g_dwLineWidth	source_code/display/fb.c	/^static unsigned int g_dwLineWidth;$/;"	v	file:
+g_dwPixelWidth	source_code/display/fb.c	/^static unsigned int g_dwPixelWidth;$/;"	v	file:
+g_dwScreenSize	source_code/display/fb.c	/^static unsigned int g_dwScreenSize;$/;"	v	file:
+g_fd	source_code/display/fb.c	/^static int g_fd;$/;"	v	file:
+g_iCurFileNumber	source_code/page/auto_page.c	/^static int g_iCurFileNumber = 0;$/;"	v	file:
+g_iDbgLevelLimit	source_code/debug/debug_manager.c	/^static int g_iDbgLevelLimit = 8;$/;"	v	file:
+g_iDirContentsNumber	source_code/page/browse_page.c	/^static int g_iDirContentsNumber;         $/;"	v	file:
+g_iDirFileNumPerCol	source_code/page/browse_page.c	/^static int g_iDirFileNumPerCol, g_iDirFileNumPerRow;$/;"	v	file:
+g_iDirFileNumPerRow	source_code/page/browse_page.c	/^static int g_iDirFileNumPerCol, g_iDirFileNumPerRow;$/;"	v	file:
+g_iFdHZK	source_code/fonts/gbk.c	/^static int g_iFdHZK;$/;"	v	file:
+g_iFileCountHaveGet	source_code/page/auto_page.c	/^static int g_iFileCountHaveGet = 0;$/;"	v	file:
+g_iFileCountTotal	source_code/page/auto_page.c	/^static int g_iFileCountTotal = 0;$/;"	v	file:
+g_iHaveConnected	source_code/debug/netprint.c	/^static int g_iHaveConnected = 0;$/;"	v	file:
+g_iIntervalSecond	source_code/page/interval_page.c	/^static int g_iIntervalSecond = 1;$/;"	v	file:
+g_iNextProcessFileIndex	source_code/page/auto_page.c	/^static int g_iNextProcessFileIndex = 0;$/;"	v	file:
+g_iReadPos	source_code/debug/netprint.c	/^static int g_iReadPos  = 0;$/;"	v	file:
+g_iSocketServer	source_code/debug/netprint.c	/^static int g_iSocketServer;$/;"	v	file:
+g_iStartIndex	source_code/page/browse_page.c	/^static int g_iStartIndex = 0;            $/;"	v	file:
+g_iStartNumberToRecord	source_code/page/auto_page.c	/^static int g_iStartNumberToRecord = 0;$/;"	v	file:
+g_iWritePos	source_code/debug/netprint.c	/^static int g_iWritePos = 0;$/;"	v	file:
+g_iXofZoomedPicShowInCenter	source_code/page/manual_page.c	/^static int g_iXofZoomedPicShowInCenter;  $/;"	v	file:
+g_iYofZoomedPicShowInCenter	source_code/page/manual_page.c	/^static int g_iYofZoomedPicShowInCenter;$/;"	v	file:
+g_pcNetPrintBuf	source_code/debug/netprint.c	/^static char *g_pcNetPrintBuf;$/;"	v	file:
+g_ptDebugOprHead	source_code/debug/debug_manager.c	/^static PT_DebugOpr g_ptDebugOprHead;$/;"	v	file:
+g_ptDefaultDispOpr	source_code/display/disp_manager.c	/^static PT_DispOpr g_ptDefaultDispOpr;	$/;"	v	file:
+g_ptDispOprHead	source_code/display/disp_manager.c	/^static PT_DispOpr g_ptDispOprHead;		$/;"	v	file:
+g_ptEncodingOprHead	source_code/encoding/encoding_manager.c	/^static PT_EncodingOpr g_ptEncodingOprHead;$/;"	v	file:
+g_ptFontOprHead	source_code/fonts/fonts_manager.c	/^static PT_FontOpr g_ptFontOprHead = NULL;$/;"	v	file:
+g_ptInputOprHead	source_code/input/input_manager.c	/^static PT_InputOpr g_ptInputOprHead;$/;"	v	file:
+g_ptPageActionHead	source_code/page/page_manager.c	/^static PT_PageAction g_ptPageActionHead;$/;"	v	file:
+g_ptPicFileParserHead	source_code/render/format/picfmt_manager.c	/^static PT_PicFileParser g_ptPicFileParserHead;	$/;"	v	file:
+g_ptVideoMemHead	source_code/display/disp_manager.c	/^static PT_VideoMem g_ptVideoMemHead;	$/;"	v	file:
+g_pucFBMem	source_code/display/fb.c	/^static unsigned char *g_pucFBMem;$/;"	v	file:
+g_pucHZKMem	source_code/fonts/gbk.c	/^static unsigned char *g_pucHZKMem;$/;"	v	file:
+g_pucHZKMemEnd	source_code/fonts/gbk.c	/^static unsigned char *g_pucHZKMemEnd;$/;"	v	file:
+g_strCurDir	source_code/page/browse_page.c	/^static char g_strCurDir[256] = DEFAULT_DIR;$/;"	v	file:
+g_strDirClosedIconName	source_code/page/browse_page.c	/^static char *g_strDirClosedIconName  = "fold_closed.bmp";$/;"	v	file:
+g_strDirOpenedIconName	source_code/page/browse_page.c	/^static char *g_strDirOpenedIconName  = "fold_opened.bmp";$/;"	v	file:
+g_strFileIconName	source_code/page/browse_page.c	/^static char *g_strFileIconName = "file.bmp";$/;"	v	file:
+g_strSelectedDir	source_code/page/browse_page.c	/^static char g_strSelectedDir[256] = DEFAULT_DIR;$/;"	v	file:
+g_tASCIIFontOpr	source_code/fonts/ascii.c	/^static T_FontOpr g_tASCIIFontOpr = {$/;"	v	file:
+g_tAsciiEncodingOpr	source_code/encoding/ascii.c	/^static T_EncodingOpr g_tAsciiEncodingOpr = {$/;"	v	file:
+g_tAutoPageAction	source_code/page/auto_page.c	/^static T_PageAction g_tAutoPageAction = {$/;"	v	file:
+g_tAutoPlayThreadID	source_code/page/auto_page.c	/^static pthread_t g_tAutoPlayThreadID;$/;"	v	file:
+g_tAutoPlayThreadMutex	source_code/page/auto_page.c	/^static pthread_mutex_t g_tAutoPlayThreadMutex  = PTHREAD_MUTEX_INITIALIZER; $/;"	v	file:
+g_tBMPParser	source_code/render/format/bmp.c	/^static T_PicFileParser g_tBMPParser = {$/;"	v	file:
+g_tBrowsePageAction	source_code/page/browse_page.c	/^static T_PageAction g_tBrowsePageAction = {$/;"	v	file:
+g_tBrowsePageDirAndFileLayout	source_code/page/browse_page.c	/^static T_PageLayout g_tBrowsePageDirAndFileLayout = {$/;"	v	file:
+g_tBrowsePageMenuIconsLayout	source_code/page/browse_page.c	/^static T_PageLayout g_tBrowsePageMenuIconsLayout = {$/;"	v	file:
+g_tConVar	source_code/input/input_manager.c	/^static pthread_cond_t  g_tConVar = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+g_tDirClosedIconPixelDatas	source_code/page/browse_page.c	/^static T_PixelDatas g_tDirClosedIconPixelDatas;$/;"	v	file:
+g_tDirOpenedIconPixelDatas	source_code/page/browse_page.c	/^static T_PixelDatas g_tDirOpenedIconPixelDatas;$/;"	v	file:
+g_tFBFix	source_code/display/fb.c	/^static struct fb_fix_screeninfo g_tFBFix;			$/;"	v	typeref:struct:fb_fix_screeninfo	file:
+g_tFBOpr	source_code/display/fb.c	/^static T_DispOpr g_tFBOpr = {$/;"	v	file:
+g_tFBVar	source_code/display/fb.c	/^static struct fb_var_screeninfo g_tFBVar;$/;"	v	typeref:struct:fb_var_screeninfo	file:
+g_tFace	source_code/fonts/freetype.c	/^static FT_Face g_tFace;$/;"	v	file:
+g_tFileIconPixelDatas	source_code/page/browse_page.c	/^static T_PixelDatas g_tFileIconPixelDatas;$/;"	v	file:
+g_tFreeTypeFontOpr	source_code/fonts/freetype.c	/^static T_FontOpr g_tFreeTypeFontOpr = {$/;"	v	file:
+g_tGBKFontOpr	source_code/fonts/gbk.c	/^static T_FontOpr g_tGBKFontOpr = {$/;"	v	file:
+g_tInputEvent	source_code/input/input_manager.c	/^static T_InputEvent g_tInputEvent;$/;"	v	file:
+g_tIntervalNumberLayout	source_code/page/interval_page.c	/^static T_Layout g_tIntervalNumberLayout;$/;"	v	file:
+g_tIntervalPageAction	source_code/page/interval_page.c	/^static T_PageAction g_tIntervalPageAction = {$/;"	v	file:
+g_tIntervalPageLayout	source_code/page/interval_page.c	/^static T_PageLayout g_tIntervalPageLayout = {$/;"	v	file:
+g_tJPGParser	source_code/render/format/jpg.c	/^static T_PicFileParser g_tJPGParser = {$/;"	v	file:
+g_tLibrary	source_code/fonts/freetype.c	/^static FT_Library g_tLibrary;$/;"	v	file:
+g_tMainPageAction	source_code/page/main_page.c	/^static T_PageAction g_tMainPageAction = {$/;"	v	file:
+g_tMainPageLayout	source_code/page/main_page.c	/^static T_PageLayout g_tMainPageLayout = {$/;"	v	file:
+g_tManualPageAction	source_code/page/manual_page.c	/^static T_PageAction g_tManualPageAction = {$/;"	v	file:
+g_tManualPageMenuIconsLayout	source_code/page/manual_page.c	/^static T_PageLayout g_tManualPageMenuIconsLayout = {$/;"	v	file:
+g_tManualPictureLayout	source_code/page/manual_page.c	/^static T_Layout g_tManualPictureLayout;$/;"	v	file:
+g_tMutex	source_code/input/input_manager.c	/^static pthread_mutex_t g_tMutex  = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+g_tNetDbgOpr	source_code/debug/netprint.c	/^static T_DebugOpr g_tNetDbgOpr = {$/;"	v	file:
+g_tNetDbgSendConVar	source_code/debug/netprint.c	/^static pthread_cond_t  g_tNetDbgSendConVar = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+g_tNetDbgSendMutex	source_code/debug/netprint.c	/^static pthread_mutex_t g_tNetDbgSendMutex  = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+g_tOriginPicPixelDatas	source_code/page/manual_page.c	/^static T_PixelDatas g_tOriginPicPixelDatas;$/;"	v	file:
+g_tPageCfg	source_code/page/auto_page.c	/^static T_PageCfg g_tPageCfg;$/;"	v	file:
+g_tRecvTreadID	source_code/debug/netprint.c	/^static pthread_t g_tRecvTreadID;$/;"	v	file:
+g_tSendTreadID	source_code/debug/netprint.c	/^static pthread_t g_tSendTreadID;$/;"	v	file:
+g_tSettingPageAction	source_code/page/setting_page.c	/^static T_PageAction g_tSettingPageAction = {$/;"	v	file:
+g_tSettingPageLayout	source_code/page/setting_page.c	/^static T_PageLayout g_tSettingPageLayout = {$/;"	v	file:
+g_tSlot	source_code/fonts/freetype.c	/^static FT_GlyphSlot g_tSlot;$/;"	v	file:
+g_tSocketClientAddr	source_code/debug/netprint.c	/^static struct sockaddr_in g_tSocketClientAddr;$/;"	v	typeref:struct:sockaddr_in	file:
+g_tSocketServerAddr	source_code/debug/netprint.c	/^static struct sockaddr_in g_tSocketServerAddr;$/;"	v	typeref:struct:sockaddr_in	file:
+g_tStdinOpr	source_code/input/stdin.c	/^static T_InputOpr g_tStdinOpr = {$/;"	v	file:
+g_tStdoutDbgOpr	source_code/debug/stdout.c	/^static T_DebugOpr g_tStdoutDbgOpr = {$/;"	v	file:
+g_tTSDev	source_code/input/touchscreen.c	/^static struct tsdev *g_tTSDev;$/;"	v	typeref:struct:tsdev	file:
+g_tTouchScreenOpr	source_code/input/touchscreen.c	/^static T_InputOpr g_tTouchScreenOpr = {$/;"	v	file:
+g_tUtf16beEncodingOpr	source_code/encoding/utf-16be.c	/^static T_EncodingOpr g_tUtf16beEncodingOpr = {$/;"	v	file:
+g_tUtf16leEncodingOpr	source_code/encoding/utf-16le.c	/^static T_EncodingOpr g_tUtf16leEncodingOpr = {$/;"	v	file:
+g_tUtf8EncodingOpr	source_code/encoding/utf-8.c	/^static T_EncodingOpr g_tUtf8EncodingOpr = {$/;"	v	file:
+g_tZoomedPicPixelDatas	source_code/page/manual_page.c	/^static T_PixelDatas g_tZoomedPicPixelDatas;$/;"	v	file:
+giXres	source_code/input/touchscreen.c	/^static int giXres;$/;"	v	file:
+giYres	source_code/input/touchscreen.c	/^static int giYres;$/;"	v	file:
+iBotRightX	source_code/include/disp_manager.h	/^	int iBotRightX;$/;"	m	struct:Layout
+iBotRightX	source_code/include/page_manager.h	/^	int iBotRightX;$/;"	m	struct:PageLayout
+iBotRightY	source_code/include/disp_manager.h	/^	int iBotRightY;$/;"	m	struct:Layout
+iBotRightY	source_code/include/page_manager.h	/^	int iBotRightY;$/;"	m	struct:PageLayout
+iBpp	source_code/include/disp_manager.h	/^	int iBpp;                $/;"	m	struct:DispOpr
+iBpp	source_code/include/fonts_manager.h	/^	int iBpp;    $/;"	m	struct:FontBitMap
+iBpp	source_code/include/page_manager.h	/^	int iBpp;             $/;"	m	struct:PageLayout
+iBpp	source_code/include/pic_operation.h	/^	int iBpp;     $/;"	m	struct:PixelDatas
+iCurOriginX	source_code/include/fonts_manager.h	/^	int iCurOriginX;  $/;"	m	struct:FontBitMap
+iCurOriginY	source_code/include/fonts_manager.h	/^	int iCurOriginY;  $/;"	m	struct:FontBitMap
+iFileSize	source_code/include/file.h	/^	int iFileSize;           $/;"	m	struct:FileMap
+iHeadLen	source_code/include/encoding_manager.h	/^	int iHeadLen;  $/;"	m	struct:EncodingOpr
+iHeight	source_code/include/pic_operation.h	/^	int iHeight;  $/;"	m	struct:PixelDatas
+iID	source_code/include/disp_manager.h	/^	int iID;                        $/;"	m	struct:VideoMem
+iIntervalSecond	source_code/include/page_manager.h	/^    int iIntervalSecond;      $/;"	m	struct:PageCfg
+iKey	source_code/include/input_manager.h	/^	int iKey;   $/;"	m	struct:InputEvent
+iLineBytes	source_code/include/pic_operation.h	/^	int iLineBytes;  $/;"	m	struct:PixelDatas
+iLineWidth	source_code/include/disp_manager.h	/^	int iLineWidth;          $/;"	m	struct:DispOpr
+iMaxTotalBytes	source_code/include/page_manager.h	/^	int iMaxTotalBytes;$/;"	m	struct:PageLayout
+iNextOriginX	source_code/include/fonts_manager.h	/^	int iNextOriginX; $/;"	m	struct:FontBitMap
+iNextOriginY	source_code/include/fonts_manager.h	/^	int iNextOriginY; $/;"	m	struct:FontBitMap
+iPageID	source_code/include/page_manager.h	/^    int iPageID;                  $/;"	m	struct:PageParams
+iPitch	source_code/include/fonts_manager.h	/^	int iPitch;  $/;"	m	struct:FontBitMap
+iPressure	source_code/include/input_manager.h	/^	int iPressure; $/;"	m	struct:InputEvent
+iTopLeftX	source_code/include/disp_manager.h	/^	int iTopLeftX;		$/;"	m	struct:Layout
+iTopLeftX	source_code/include/page_manager.h	/^	int iTopLeftX;        $/;"	m	struct:PageLayout
+iTopLeftY	source_code/include/disp_manager.h	/^	int iTopLeftY;$/;"	m	struct:Layout
+iTopLeftY	source_code/include/page_manager.h	/^	int iTopLeftY;$/;"	m	struct:PageLayout
+iTotalBytes	source_code/include/pic_operation.h	/^	int iTotalBytes;  $/;"	m	struct:PixelDatas
+iType	source_code/include/input_manager.h	/^	int iType;  $/;"	m	struct:InputEvent
+iWidth	source_code/include/pic_operation.h	/^	int iWidth;   $/;"	m	struct:PixelDatas
+iX	source_code/include/input_manager.h	/^	int iX;     $/;"	m	struct:InputEvent
+iXLeft	source_code/include/fonts_manager.h	/^	int iXLeft;  $/;"	m	struct:FontBitMap
+iXMax	source_code/include/fonts_manager.h	/^	int iXMax;   $/;"	m	struct:FontBitMap
+iXres	source_code/include/disp_manager.h	/^	int iXres;               $/;"	m	struct:DispOpr
+iY	source_code/include/input_manager.h	/^	int iY;$/;"	m	struct:InputEvent
+iYMax	source_code/include/fonts_manager.h	/^	int iYMax;   $/;"	m	struct:FontBitMap
+iYTop	source_code/include/fonts_manager.h	/^	int iYTop;   $/;"	m	struct:FontBitMap
+iYres	source_code/include/disp_manager.h	/^	int iYres;               $/;"	m	struct:DispOpr
+isAsciiCoding	source_code/encoding/ascii.c	/^static int isAsciiCoding(unsigned char *pucBufHead)$/;"	f	file:
+isBMPFormat	source_code/render/format/bmp.c	/^static int isBMPFormat(PT_FileMap ptFileMap)$/;"	f	file:
+isCanUse	source_code/include/debug_manager.h	/^	int isCanUse;$/;"	m	struct:DebugOpr
+isDir	source_code/file/file.c	/^static int isDir(char *strFilePath, char *strFileName)$/;"	f	file:
+isEmpty	source_code/debug/netprint.c	/^static int isEmpty(void)$/;"	f	file:
+isFontInArea	source_code/render/render.c	/^static int isFontInArea(int iTopLeftX, int iTopLeftY, int iBotRightX, int iBotRightY, PT_FontBitMap ptFontBitMap)$/;"	f	file:
+isFull	source_code/debug/netprint.c	/^static int isFull(void)$/;"	f	file:
+isJPGFormat	source_code/render/format/jpg.c	/^static int isJPGFormat(PT_FileMap ptFileMap)$/;"	f	file:
+isPictureFileSupported	source_code/render/render.c	/^int isPictureFileSupported(char *strFileName)$/;"	f
+isRegDir	source_code/file/file.c	/^static int isRegDir(char *strDirPath, char *strSubDirName)$/;"	f	file:
+isRegFile	source_code/file/file.c	/^static int isRegFile(char *strFilePath, char *strFileName)$/;"	f	file:
+isSupport	source_code/include/encoding_manager.h	/^	int (*isSupport)(unsigned char *pucBufHead);  $/;"	m	struct:EncodingOpr
+isSupport	source_code/include/pic_operation.h	/^	int (*isSupport)(PT_FileMap ptFileMap);  $/;"	m	struct:PicFileParser
+isUtf16beCoding	source_code/encoding/utf-16be.c	/^static int isUtf16beCoding(unsigned char *pucBufHead)$/;"	f	file:
+isUtf16leCoding	source_code/encoding/utf-16le.c	/^static int isUtf16leCoding(unsigned char *pucBufHead)$/;"	f	file:
+isUtf8Coding	source_code/encoding/utf-8.c	/^static int isUtf8Coding(unsigned char *pucBufHead)$/;"	f	file:
+main	source_code/main.c	/^int main(int argc, char **argv)$/;"	f
+main	source_code/netprint_client.c	/^int main(int argc, char **argv)$/;"	f
+name	source_code/include/debug_manager.h	/^	char *name;$/;"	m	struct:DebugOpr
+name	source_code/include/disp_manager.h	/^	char *name;              $/;"	m	struct:DispOpr
+name	source_code/include/encoding_manager.h	/^	char *name;    $/;"	m	struct:EncodingOpr
+name	source_code/include/fonts_manager.h	/^	char *name;             $/;"	m	struct:FontOpr
+name	source_code/include/input_manager.h	/^	char *name;          $/;"	m	struct:InputOpr
+name	source_code/include/page_manager.h	/^	char *name;            $/;"	m	struct:PageAction
+name	source_code/include/pic_operation.h	/^	char *name;                     $/;"	m	struct:PicFileParser
+ptFontOprSupportedHead	source_code/include/encoding_manager.h	/^	PT_FontOpr ptFontOprSupportedHead;  $/;"	m	struct:EncodingOpr
+ptNext	source_code/include/debug_manager.h	/^	struct DebugOpr *ptNext;$/;"	m	struct:DebugOpr	typeref:struct:DebugOpr::DebugOpr
+ptNext	source_code/include/disp_manager.h	/^	struct DispOpr *ptNext;      $/;"	m	struct:DispOpr	typeref:struct:DispOpr::DispOpr
+ptNext	source_code/include/disp_manager.h	/^	struct VideoMem *ptNext;        $/;"	m	struct:VideoMem	typeref:struct:VideoMem::VideoMem
+ptNext	source_code/include/encoding_manager.h	/^	struct EncodingOpr *ptNext;  $/;"	m	struct:EncodingOpr	typeref:struct:EncodingOpr::EncodingOpr
+ptNext	source_code/include/fonts_manager.h	/^	struct FontOpr *ptNext;  $/;"	m	struct:FontOpr	typeref:struct:FontOpr::FontOpr
+ptNext	source_code/include/input_manager.h	/^	struct InputOpr *ptNext;$/;"	m	struct:InputOpr	typeref:struct:InputOpr::InputOpr
+ptNext	source_code/include/page_manager.h	/^	struct PageAction *ptNext;    $/;"	m	struct:PageAction	typeref:struct:PageAction::PageAction
+ptNext	source_code/include/pic_operation.h	/^    struct PicFileParser *ptNext;  $/;"	m	struct:PicFileParser	typeref:struct:PicFileParser::PicFileParser
+pub	source_code/render/format/jpg.c	/^	struct jpeg_error_mgr pub;$/;"	m	struct:MyErrorMgr	typeref:struct:MyErrorMgr::jpeg_error_mgr	file:
+pucBuffer	source_code/include/fonts_manager.h	/^	unsigned char *pucBuffer;  $/;"	m	struct:FontBitMap
+pucDispMem	source_code/include/disp_manager.h	/^	unsigned char *pucDispMem;   $/;"	m	struct:DispOpr
+pucFileMapMem	source_code/include/file.h	/^	unsigned char *pucFileMapMem;  $/;"	m	struct:FileMap
+setjmp_buffer	source_code/render/format/jpg.c	/^	jmp_buf setjmp_buffer;$/;"	m	struct:MyErrorMgr	file:
+strCurPictureFile	source_code/include/page_manager.h	/^    char strCurPictureFile[256];  $/;"	m	struct:PageParams
+strFileName	source_code/include/file.h	/^	char strFileName[256];   $/;"	m	struct:FileMap
+strIconName	source_code/include/disp_manager.h	/^	char *strIconName;	$/;"	m	struct:Layout
+strName	source_code/include/file.h	/^	char strName[256];     $/;"	m	struct:DirContent
+strSeletedDir	source_code/include/page_manager.h	/^    char strSeletedDir[256];   $/;"	m	struct:PageCfg
+tFp	source_code/include/file.h	/^	FILE * tFp;              $/;"	m	struct:FileMap
+tPixelDatas	source_code/include/disp_manager.h	/^	T_PixelDatas tPixelDatas;       $/;"	m	struct:VideoMem
+tTime	source_code/include/input_manager.h	/^	struct timeval tTime;   $/;"	m	struct:InputEvent	typeref:struct:InputEvent::timeval
+tTreadID	source_code/include/input_manager.h	/^	pthread_t tTreadID;  $/;"	m	struct:InputOpr
+tagBITMAPFILEHEADER	source_code/render/format/bmp.c	/^typedef struct tagBITMAPFILEHEADER { $/;"	s	file:
+tagBITMAPINFOHEADER	source_code/render/format/bmp.c	/^typedef struct tagBITMAPINFOHEADER { $/;"	s	file:
